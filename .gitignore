@@ -2,4 +2,4 @@
 .env
 .idea/
 .ipynb_checkpoints/
-.toml
+connections.toml
