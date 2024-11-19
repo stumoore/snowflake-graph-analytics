@@ -1,0 +1,6 @@
+.DS_Store
+.env
+.idea/
+.ipynb_checkpoints/
+connections.toml
+scratch/

@@ -27,7 +27,7 @@ The P2P Dataset has the below schema with users sending money to each other in P
 ### Video Reference (TODO: Make public version)
 [Private Neo4j video link](https://drive.google.com/file/d/1qiihmHF89EQ4-J5SsXrVDboqtdCw1RUi/view?usp=sharing)
 
-## Steps
+### Steps
 1. Run [P2P_DEMO_STEP1_ALGOS.sql](P2P_DEMO_STEP1_ALGOS.sql) This will run all the graph algorithms and create all table for the entire worked example
 2. Run the notebook [P2P_DEMO_STEP2_EXPLORE.ipynb](P2P_DEMO_STEP2_EXPLORE.ipynb) to visualize clustering and influential/high-money-flow account analysis
 3. Run the notebook [P2P_DEMO_STEP3_ER.ipynb](P2P_DEMO_STEP3_ER.ipynb) to visualize the ER and additional fraud risk labeling analysis. 
