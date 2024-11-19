@@ -2,18 +2,18 @@
 ## Worked Example: Patient Journey
 
 ## Dataset
-Uses [Synthea](https://github.com/synthetichealth/synthea)
+We use [Synthea](https://github.com/synthetichealth/synthea) to simulate realistic patient data. 
 
 ## Prerequisites
-Run Synthea above.  Change `exporter.csv.export = true` in `synthea.properties` then use the following options
+
+### Get Source Data
+Get source csvs either from [here](https://drive.google.com/drive/folders/14bbDMnLU7beW1f79Rjr4J2b7hw3mCIQJ?usp=sharing) or by running [Synthea](https://github.com/synthetichealth/synthea)  per directions below:
+
+Change `exporter.csv.export = true` in `synthea.properties` then use the following options
 ```bash
 ./run_synthea -s 7474 -p 1000
 ```
-
-Crete a `PATIENT_DB` database and load the following csvs into `PUBLIC` schema: 
-1. CAREPLANS
-2. CONDITIONS
-3. ENCOUNTERS
-4. MEDICATIONS
-5. PATIENTS
-6. PROCEDURES
+### Load Source Data
+Crete a `PATIENT_DB` database and load the following csvs into `PUBLIC` schema:
+1. PATIENTS
+2. PROCEDURES
