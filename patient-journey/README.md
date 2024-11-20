@@ -21,7 +21,7 @@ Change `exporter.csv.export = true` in `synthea.properties` then use the followi
 ./run_synthea -s 7474 -p 1000
 ```
 ### 2) Load Source Data
-Crete a `PATIENT_DB` database and load the following csvs into `PUBLIC` schema:
+Create a `PATIENT_DB` database and load the following CSVs into `PUBLIC` schema:
 1. PATIENTS
 2. PROCEDURES
 
