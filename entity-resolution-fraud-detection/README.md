@@ -6,6 +6,8 @@ This example shows how to use Neo4j Graph Analytics within Snowflake to analyze 
 2. __Find the most influential users__: who has the most money flowing through their account (graph algo:pagerank centrality)
 3. Perform __entity resolution__ & identify fraud risk accounts (graph algo: weakly connected components)
 
+### Video Reference
+See a recorded demo of this example [here (starting at 12:00)](https://www.youtube.com/watch?v=BiTA9OXHM44&t=708s)
 
 ## Dataset
 The P2P Dataset has the below schema with users sending money to each other in P2P transactions.  Each user can also have multiple identifiers, including credit cards, devices, and IP addresses.
@@ -23,9 +25,6 @@ The P2P Dataset has the below schema with users sending money to each other in P
 3. Run [P2P_DEMO_STEP0_CREATE_AGG_TABLE.sql](P2P_DEMO_STEP0_CREATE_AGG_TABLE.sql)  to create a `P2P_AGG_TRANSACTIONS` table. This just aggregates transactions for efficiency later on. 
 
 ## Running The Example
-
-### Video Reference (TODO: Make public version)
-[Private Neo4j video link](https://drive.google.com/file/d/1qiihmHF89EQ4-J5SsXrVDboqtdCw1RUi/view?usp=sharing)
 
 ### Steps
 1. Run [P2P_DEMO_STEP1_ALGOS.sql](P2P_DEMO_STEP1_ALGOS.sql) This will run all the graph algorithms and create all table for the entire worked example
